@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <link rel="stylesheet" href="style1.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Colour!</h1>
+    <div class="game">
+      <div class="word"></div>
+      <span class="hint">Loading...</span>
+      <span class="message"></span>
+      <div class="formWrap">
+        <form id="gameForm">
+          <label for="guessForm">Guess a Letter</label>
+          <input type="text" name="guess" id="guessForm" maxlength="1" >
+          <button type="submit" value="Guess!" form="gameForm">Make the Guess</button>
+        </form>
+      </div>
+      <div class="sofar hidden">Guessed:<span class="guessedltrs"></span></div>
+    </div>
+  </div>
+  <script src="java.js"></script>
+</body>
+</html>
